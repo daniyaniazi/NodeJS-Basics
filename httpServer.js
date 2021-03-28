@@ -4,10 +4,17 @@ const port = 3000;
 
 //Creating server
 const server = http.createServer((request, response) => {
-    response.statusCode = 200; //OK
-    response.setHeader("Content-type", 'text/plain')
+    response.writeHead(200, { "Content-type": 'text/plain' },)
+    //response.statusCode = 200; //OK
+    //.setHeader("Content-type", 'text/plain')
+
+
     //return data to request
-    response.end("welcome to HTTP server")
+    response.write("Welcome To HTTP Server")
+    response.end()
+    //-----------------------------
+    //response.end("welcome to HTTP server")
+
 })
 
 server.listen(port, hostname, () => {
