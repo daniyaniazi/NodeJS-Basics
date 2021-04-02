@@ -5,6 +5,7 @@
 /exp_files/node_modules
 /express_advance/node_modules
 /LoginApp/node_modules
+/MiddlewareApp/node_modules
 # testing
 /coverage
 
