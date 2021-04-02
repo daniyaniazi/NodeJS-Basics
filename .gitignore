@@ -6,6 +6,8 @@
 /express_advance/node_modules
 /LoginApp/node_modules
 /MiddlewareApp/node_modules
+/LoggerApp/node_modules
+/RouterApp/node_modules
 # testing
 /coverage
 
