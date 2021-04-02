@@ -7,7 +7,7 @@
 /LoginApp/node_modules
 /MiddlewareApp/node_modules
 /LoggerApp/node_modules
-/RouterApp/node_modules
+/RouterAApp/node_modules
 # testing
 /coverage
 
