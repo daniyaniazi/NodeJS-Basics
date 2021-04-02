@@ -3,6 +3,8 @@
 /.pnp
 .pnp.js
 /exp_files/node_modules
+/express_advance/node_modules
+/LoginApp/node_modules
 # testing
 /coverage
 

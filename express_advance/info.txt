@@ -1,0 +1,7 @@
+session
+cookies
+core middleware
+core routing
+build own apis
+core views
+database integration
