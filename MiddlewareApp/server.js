@@ -27,6 +27,11 @@ app.use(function (req, res, next) {
         }
     })
 })
+//404 -> always at the end
+app.use(function (req, res, next) {
+    res.status(404)
+    res.send("File Not Found")
+})
 
 app.listen(port, () => {
     console.log("SERVER STATRED")
