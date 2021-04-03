@@ -1,0 +1,22 @@
+show dbs  -> show databases
+
+use dbname -> create a db
+
+
+//users is a documents 
+//inset is a method to inset in document
+db.users.insert({uersname:"Daniya"})
+
+
+db.users.find()
+db.users.count()
+
+db.users.update({uersname:"Daniya"},{$set: {country:"China"}})
+
+
+db.users.remove({uersname:'Daniya'})
+
+show collections
+users
+
+db.stats()
